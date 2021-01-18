@@ -1,0 +1,119 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#3399CC;
+    color: #fff;
+    border: 20px solid #2B81AC;
+    height: 100vh;
+    font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+}
+
+.city-weather {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cities-list {
+    list-style-type: none;
+    padding: 0;
+    border: 3px solid #fff;
+    font-size: 0;
+    margin-bottom: 30px;
+}
+
+.cities-list:hover li{
+    opacity: 0.5;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    border: 3px solid #fff;
+    height: 120px;
+    vertical-align: top;
+    font-size: 20px;
+    padding-top: 24px;
+}
+
+li:hover {
+    opacity: 1 !important;
+}
+
+.city-name {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.temperature,
+.wi {
+    display: inline-block;
+    vertical-align: middle;
+    opacity: 0.7;
+}
+
+.block-width-1 {
+    width: 25%;
+}
+
+.block-width-2 {
+    width: 50%;
+}
+
+.block-width-4 {
+    width: 100%;
+}
+
+.lisbon {
+    background-color: #3399CC;
+}
+
+.paris {
+    background-color: #33CCCC;
+}
+
+.belgrade {
+    background-color: #996699;
+}
+
+.moscow {
+    background-color: #C24747;
+}
+
+
+.tel-aviv {
+    background-color: #E2674A;
+}
+
+.cair {
+    background-color: #FFCC66;
+}
+
+.new-york {
+    background-color: #99CC99;
+}
+
+.new-delhi {
+    background-color: #669999;
+}
+
+.san-francisco {
+    background-color: #CC6699;
+}
+
+.tokyo {
+    background-color: #339966;
+}
+
+.sydney {
+    background-color: #666699;
+}
+
+p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
